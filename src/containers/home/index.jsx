@@ -1,12 +1,15 @@
 import React from "react";
 import { Animate } from "react-simple-animate";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTelegram } from "react-icons/fa";
 import "./styles.scss";
 import MyPdf from "../../resume/Abbos555.pdf";
 
 const Home = () => {
    function handleNavigateLinkedin() {
       window.open("https://github.com/abbos0959", "_blank");
+   }
+   function handleNavigateTelegram() {
+      window.open("https://t.me/Abbos_Akromovich_1999", "_blank");
    }
 
    return (
@@ -38,7 +41,10 @@ const Home = () => {
                <div className="contact-me__socials-wrapper">
                   <h2 style={{ color: "#FFDD40", marginTop: "10px" }}> Github</h2>
                   <FaGithub onClick={handleNavigateLinkedin} size={32} />
+                  <h2 style={{ color: "#FFDD40", marginTop: "10px" }}> Telegram</h2>
+                  <FaTelegram onClick={handleNavigateTelegram} size={32} />
                </div>
+               <div className="contact-me__socials-wrapper"></div>
             </div>
          </Animate>
       </section>
