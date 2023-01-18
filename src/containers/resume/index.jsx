@@ -68,7 +68,7 @@ const Resume = () => {
                   color: "var(--selected-theme-main-color)",
                   border: "1.5px solid var(--selected-theme-main-color)",
                 }}
-                date="2013 - 2017"
+                date="2019 - 2023"
                 iconStyle={{
                   background: "#181818",
                   color: "var(--selected-theme-main-color)",

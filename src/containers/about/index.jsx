@@ -29,14 +29,9 @@ const About = () => {
               transform: "translateX(0px)",
             }}
           >
-            <h3 className="developerContent">Front end developer</h3>
+            <h3 className="developerContent">Full Stack developer</h3>
             <p>
-              Senior front-end developer with 4.5 years of experience designing
-              and building responsive web design and mobile apps in the
-              financial industry. Proficient with CSS and JS Frameworks, with
-              extensive knowledge of UX and user psychology. Notable
-              achievements include boosting the conversion rate of an existing
-              website by 80% with improved code and design.
+            Passionate Full Stack Web Developer with a specialization in MERN stack. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learning something new to strengthen skills learned.
             </p>
           </Animate>
           <Animate

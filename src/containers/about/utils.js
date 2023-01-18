@@ -1,18 +1,18 @@
 export const personalData = [
     {
         label : 'Name:',
-        value : 'Sangam Mukherjee'
+        value : "Abbos G'ulomov"
     },
     {
         label : 'Address:',
-        value : 'Bengaluru'
+        value : 'Tashkent'
     },
     {
         label : 'Email:',
-        value : 'sangammukherjee1996@gmail.com'
+        value : 'abbosg5@gmail.com'
     },
     {
         label : 'Contact No:',
-        value : '+91 8653750060'
+        value : '+998906770959'
     }
 ]

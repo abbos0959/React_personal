@@ -1,72 +1,74 @@
+import { GiTriquetra } from "react-icons/gi";
+
 export default {
-    background: {
+   background: {
       color: {
-        value: "#1d1d1d",
+         value: "#1d1d1d",
       },
-    },
-    fpsLimit: 120,
-    interactivity: {
+   },
+   fpsLimit: 120,
+   interactivity: {
       events: {
-        onClick: {
-          enable: true,
-          mode: "push",
-        },
-        onHover: {
-          enable: true,
-          mode: "repulse",
-        },
-        resize: true,
+         onClick: {
+            enable: true,
+            mode: "push",
+         },
+         onHover: {
+            enable: true,
+            mode: "repulse",
+         },
+         resize: true,
       },
       modes: {
-        push: {
-          quantity: 4,
-        },
-        repulse: {
-          distance: 200,
-          duration: 0.4,
-        },
+         push: {
+            quantity: 4,
+         },
+         repulse: {
+            distance: 200,
+            duration: 0.4,
+         },
       },
-    },
-    particles: {
+   },
+   particles: {
       color: {
-        value: "#ffdd08",
+         value: "#ffdd08",
       },
       links: {
-        color: "#ffffff",
-        distance: 150,
-        enable: true,
-        opacity: 0.5,
-        width: 1,
+         color: "#00FF00",
+         distance: 200,
+         enable: true,
+         opacity: 0.5,
+         width: 1,
       },
       collisions: {
-        enable: true,
+         enable: true,
       },
       move: {
-        direction: "none",
-        enable: true,
-        outModes: {
-          default: "bounce",
-        },
-        random: false,
-        speed: 6,
-        straight: false,
+         direction: "none",
+         enable: true,
+         outModes: {
+            default: "bounce",
+         },
+         random: false,
+         speed: 6,
+         straight: false,
       },
       number: {
-        density: {
-          enable: true,
-          area: 800,
-        },
-        value: 80,
+         density: {
+            enable: true,
+            area: 800,
+         },
+         value: 80,
       },
       opacity: {
-        value: 0.5,
+         value: 0.5,
       },
       shape: {
-        type: "circle",
+         type: "circle",
       },
       size: {
-        value: { min: 1, max: 5 },
+         value: { min: 1, max: 5 },
       },
-    },
-    detectRetina: true,
-  };
+   },
+   detectRetina: true,
+};
